@@ -83,7 +83,7 @@ export const sendEmail = async (req, res) => {
         emailBody +='</table>';
         const mailOptions = {
             from: 'work.shasri@gmail.com',
-            to: 'shantanu14402@gmail.com',
+            to: 'info@redpositive.in',
             subject: 'User Data',
             html: emailBody,
         };
