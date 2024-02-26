@@ -26,3 +26,5 @@ mongoose
     .catch(err => console.error(err));
 app.use(cookieParser());
 
+export default app;
+
